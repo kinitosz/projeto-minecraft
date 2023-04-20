@@ -1,0 +1,47 @@
+@media (max-width: 1220px){
+    body{
+        background-color: #00313C;
+    }
+
+    .fundo-imagem{
+        display: none;
+    }
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-height: auto;
+        gap: 30px;
+    }
+
+    .container .mine{
+        max-width: 50%;
+    }
+
+    .container .informacoes{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .descricao{
+        color: #ffffff;
+        text-align: center ;
+    }
+    
+    .container .botao-trailer{
+        background-color: #4BB84D;
+    }
+}
+@media (max-width: 500px){
+
+    .cabacalho{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container .imagem-titulo{
+        max-width: 75%;
+    }
+}
